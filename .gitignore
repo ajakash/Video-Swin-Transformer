@@ -1,3 +1,7 @@
+# Ignore some data files
+tools/data/moma_activity_sample/
+tools/data/moma_subactivity_sample/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
