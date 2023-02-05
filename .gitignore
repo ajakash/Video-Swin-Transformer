@@ -2,6 +2,9 @@
 tools/data/moma_activity_sample/
 tools/data/moma_subactivity_sample/
 
+# Ignore singularity image file
+*.sif
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
