@@ -83,6 +83,8 @@ RUN pip install terminaltables
 
 RUN pip install future tensorboard
 
+RUN pip install einops decord
+
 RUN git clone https://github.com/NVIDIA/apex && \
     cd apex && \
     pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./ && \

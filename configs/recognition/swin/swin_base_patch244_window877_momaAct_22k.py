@@ -7,9 +7,9 @@ model=dict(backbone=dict(patch_size=(2,4,4), drop_path_rate=0.2), test_cfg=dict(
 dataset_type = 'VideoDataset'
 data_root = ''
 data_root_val = ''
-ann_file_train = 'data/moma/moma_activity_video_train_list.txt'
-ann_file_val = 'data/moma/moma_activity_video_val_list.txt'
-ann_file_test = 'data/moma/moma_activity_video_test_list.txt'
+ann_file_train = 'tools/data/moma/moma_activity_video_train_list.txt'
+ann_file_val = 'tools/data/moma/moma_activity_video_val_list.txt'
+ann_file_test = 'tools/data/moma/moma_activity_video_test_list.txt'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_bgr=False)
 train_pipeline = [

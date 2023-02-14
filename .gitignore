@@ -1,8 +1,11 @@
 # Ignore some data files
 tools/data/moma_activity_sample/
 tools/data/moma_subactivity_sample/
+job_logs/
 
 # Ignore singularity image file
+MOMA_SANDBOX/
+SANDBOX_DOCKERHUB/
 *.sif
 
 # Byte-compiled / optimized / DLL files
